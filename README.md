@@ -6,17 +6,29 @@ It supports event registration, conflict detection, searching, deletion, and rea
 ## 📁 Project Structure
 
 src/
+
 ├── Main.java
+
 ├── ScheduleManager.java
+
 ├── model/
+
 │ ├── Event.java
+
 │ └── Alarm.java
+
 ├── exception/
+
 │ ├── DuplicateEventException.java
+
 │ ├── AlarmException.java
+
 │ └── TimeFormatException.java
+
 ├── notification/
+
 │ ├── ConsoleNotifier.java
+
 │ └── Notifiable.java
 
 
@@ -33,8 +45,7 @@ src/
 - Java 11+
 - IntelliJ / Eclipse or any terminal + javac setup
 
-## ▶️ How to Run
+## ▶️  실행 방법
 
-```bash
 javac src/*.java src/*/*.java
-java -cp src Main
+java -cp src Main  __ 우클릭 -> Run as -> java Application
